@@ -47,43 +47,6 @@ MonoBehaviour:
   id: 0
   moodRing: {fileID: 840169411138179385}
   emotion: 0
-  relationships:
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
-  - partnerId: 0
-    relationshipStatus: 0
 --- !u!1 &3610083842189844130
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,29 +1,25 @@
 ﻿using UnityEditor;
 using UnityEditorInternal;
 
-[CustomEditor(typeof(Character))]
-[CanEditMultipleObjects]
-public class CharacterEditor : Editor {
-    private SerializedProperty moodProp;
-    private SerializedProperty emotionProp;
-    private ReorderableList relationships;
+//[CustomEditor(typeof(Character))]
+//[CanEditMultipleObjects]
+//public class CharacterEditor : Editor {
+//    private SerializedProperty moodProp;
+//    private SerializedProperty emotionProp;
 
-    private void OnEnable() {
-        var property = this.serializedObject.FindProperty("relationships");
-        moodProp = serializedObject.FindProperty("moodRing");
-        emotionProp = serializedObject.FindProperty("emotion");
+//    private void OnEnable() {
+//        moodProp = serializedObject.FindProperty("moodRing");
+//        emotionProp = serializedObject.FindProperty("emotion");
 
-        this.relationships = ReorderableListUtility.CreateAutoLayout(property);
-    }
+//    }
 
-    public override void OnInspectorGUI() {
-        this.serializedObject.Update();
+//    public override void OnInspectorGUI() {
+//        this.serializedObject.Update();
 
-        EditorGUILayout.PropertyField(moodProp);
-        EditorGUILayout.PropertyField(emotionProp);
+//        EditorGUILayout.PropertyField(moodProp);
+//        EditorGUILayout.PropertyField(emotionProp);
 
-        ReorderableListUtility.DoLayoutListWithFoldout(this.relationships);
 
-        this.serializedObject.ApplyModifiedProperties();
-    }
-}
+//        this.serializedObject.ApplyModifiedProperties();
+//    }
+//}

@@ -9,7 +9,6 @@ public class Character : MonoBehaviour
     [SerializeField]
     private SpriteRenderer moodRing;
     public Emotions emotion;
-    public Relationship[] relationships = new Relationship[18];
 
     // Start is called before the first frame update
     void Start()
@@ -36,10 +35,4 @@ public class Character : MonoBehaviour
         this.emotion = emotion;
         moodRing.color = GameManager.emotionsDict[emotion].color;
     }
-}
-
-[System.Serializable]
-public class Relationship {
-    public int partnerId;
-    public RelationshipStatus relationshipStatus;
 }
